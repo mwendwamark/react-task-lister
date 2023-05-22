@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaHome, FaBars, FaTimes } from "react-icons/fa";
-import "./Navbar.css";
+import "./Styling/Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
   const closeNavbar = () => {
     setIsOpen(false);
   };
-
+ 
   return (
     <div className="navbar-wrapper">
       <nav className={`navbar ${isOpen ? "open" : ""}`}>

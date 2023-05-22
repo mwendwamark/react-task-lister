@@ -9,7 +9,7 @@ import {
   FaDollarSign,
   FaCheck,
 } from "react-icons/fa";
-import "./Home.css";
+import "./Styling/Home.css";
 import backgroundImage from "./background.jpg";
 import actualbackground from "./actualbackground.jpg";
 import Navbar from "./Navbar";

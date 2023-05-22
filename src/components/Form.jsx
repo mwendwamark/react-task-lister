@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReminderComponent from "./Reminder";
-import "./Form.css";
+import "./Styling/Form.css";
 import { FaHome, FaTrash, FaEdit, FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
