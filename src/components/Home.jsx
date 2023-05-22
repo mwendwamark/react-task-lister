@@ -9,11 +9,11 @@ import {
   FaDollarSign,
   FaCheck,
 } from "react-icons/fa";
-import "./Home";
-import backgroundImage from "../assets/background.jpg";
-import actualbackground from "../assets/actualbackground.jpg";
+import "./Home.css";
+import backgroundImage from "./background.jpg";
+import actualbackground from "./actualbackground.jpg";
 import Navbar from "./Navbar";
-import assisting from "../assets/assisting.jpg";
+import assisting from "./assisting.jpg";
 
 const Home = () => {
   return (

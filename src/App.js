@@ -4,15 +4,13 @@ import Form from "./components/Form";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import About from "./components/About";
-// import "./styling/App.css";
+// import "../components/App.css";
 import Contacts from "./components/Contacts";
 
 const App = () => {
   return (
     <BrowserRouter>
-    <h2>hello world</h2>
       <Routes>
-
         <Route path="/login" element={<Login />} />
         <Route exact path="/" element={<Home />} />
         <Route path="/your-todo-list" element={<Form />} />
