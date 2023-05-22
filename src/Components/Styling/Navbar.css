@@ -1,0 +1,120 @@
+/* 
+.navbar-wrapper {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;    
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;   
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    margin-bottom: 240px;
+    margin-left: 200px;
+}
+
+.navbar-toggle svg {
+    font-size: 29px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar-links li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--darkblue);
+    font-size: 29px;
+    font-weight: 500;
+    
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    color: rgba(2, 137, 122);
+    text-decoration: underline;
+}
+.link-text-login{
+    font-size: 29px;
+    border-radius: 10px;
+    border: rgba(2, 137, 122) 2px solid;
+    color:whitesmoke;
+    background-color: rgba(2, 137, 122);
+    padding: 4px ;
+    border-width: 4px;
+    font-weight: 900;
+}
+
+.link-text-login:hover{
+    color: rgba(2, 137, 122);
+    background-color: whitesmoke;
+}
+.link-text {
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 900;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+
+    .navbar-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100px;
+        background-color: whitesmoke;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        border-radius: 16px;
+    }
+
+    .navbar.open .navbar-links {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar-links li {
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 320px) {
+.navbar-toggle{
+    margin-bottom: 240px;
+    margin-left: 200px;
+}
+} */
